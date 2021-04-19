@@ -13,7 +13,7 @@ $("#validate").validate({
             required:true,
             email:true
         },
-        password:{
+        message:{
             required:true,
             minlength:8
         }
