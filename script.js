@@ -1,0 +1,23 @@
+$(document).ready(function(){
+$("#validate").validate({
+    rules:{
+        name:{
+            required:true,
+            minlength:4
+        },
+        number:{
+            required:true,
+            minlength:10
+        },
+        email:{
+            required:true,
+            email:true
+        },
+        password:{
+            required:true,
+            minlength:8
+        }
+    }
+       
+    })
+})

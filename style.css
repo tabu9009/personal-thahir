@@ -1,0 +1,20 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section-contact{
+    background-image: url(./image/pexels-hasan-albari-1229861.jpg);
+    background-size: cover;
+    
+    
+}
+.form-section:hover{
+    background-color: green;
+    color: #fff;
+}
+.form-section{
+    border-radius: 1px;
+
+}
